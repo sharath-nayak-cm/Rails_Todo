@@ -1,0 +1,4 @@
+
+<%= turbo_stream.replace "#{dom_id(@task)}" do %>
+    <%= render 'form', task: @task%>
+<% end%>

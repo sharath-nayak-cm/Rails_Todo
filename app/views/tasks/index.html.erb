@@ -1,0 +1,14 @@
+
+<h1 class="font-bold text-4xl mb-2">Todo List</h1>
+
+  <div class="px-4 py-6 broder rounded shadow ">
+    <div class="mb-10">
+      <%= render 'form',task: Task.new %>
+    </div>
+  </div>
+
+  <ul class="space-y-3" id="tasks">
+    <%= render @tasks %>
+  </ul>
+
+
